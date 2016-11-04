@@ -5,6 +5,7 @@ import tflearn
 
 # Download the Titanic dataset
 from tflearn.datasets import titanic
+
 titanic.download_dataset('titanic_dataset.csv')
 
 # Load CSV file, indicate that the first column represents labels
